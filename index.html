@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+</head>
+<body>
+    <b>This is my basic component library for HTML.</b>
+    <hr>
+
+    <h1>Rhishi's component library</h1>
+    <p>This is a library for basic structure of HTML code
+    </p>
+
+    <hr>
+    <h2>@How is Typography flow in HTML</h2>
+    
+    <h1>H1: This is the biggest heading</h1>
+    <h2>H2: This is the second biggest</h2>
+    <!-- This is to check H1 to Small how much we can reduce the font size with basic HTML Tags -->
+    <h3>H3: Is something like this even possible</h3>
+    <p>Para: Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph. </p>
+    <p>FORMAT: This paragraph will have a <strong>bold</strong> text</p>
+    <small>SMALL: This is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <!-- This is just a placeholder,  -->
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
+
+    <h3>center container</h3>
+    <!-- This is just a placeholder,  with CSS we can convert this to "INLINE"-->
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <!-- Are links are inline by default? -->
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+    <p> This list will not have the bullet</p>
+    <!-- List items with Para : "p" tag, with little spacing in between -->
+    <ul class="list-non-bullet">
+        <p>Item One</p>
+        <p>Item Two</p>
+        <p>Item Three</p>
+    </ul>
+
+    <!-- List items with List : "li" tag -->
+    <p> This is list with the bullet</p>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3> unordered inline list</h3> 
+    <!--  -->
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3> reverse ordered list</h3>
+    <!-- This is another place holder, with CSS we can convert the below list in reverse order. -->
+    <!-- However, with "ol"-tags "reversed"-attribute we can reverse the same. -->
+    <ol reversed>
+        <li>Finance</li>
+        <li>Investing</li>
+        <li>Coding</li>
+        <li>Technology</li>
+        <li>Public Policy</li>
+    </ol>
+
+    <hr />
+
+    <h2>@nav</h2>
+    <!-- Yes there is NAV Class in HTML, which is useful. -->
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <!-- color code used HEX Code #71C9CE -->
+        <img class="hero-img" src="/images/freelance.svg" />
+        <h1 class="hero-heading">Rhishi, the <span class="heading-inverted"> novice web developer</span></h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <!-- Color coding for variation in blog posts on website -->
+            <h1>white section</h1>
+            <p> We are an open community of developers building resources for a better Web, regardless of brand, browser,
+                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+                to drive innovation on the Web to serve the greater good. It starts here, with you.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <!-- Color coding for variation in blog posts on website -->
+            <h1>off white section</h1>
+            <p> We are an open community of developers building resources for a better Web, regardless of brand, browser,
+                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+                to drive innovation on the Web to serve the greater good. It starts here, with you.
+            </p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <!-- With CSS this will be inline and needs additing icons of respective sits mentioned. -->
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialone
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialtwo
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialthree
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+
+
+
+</body>
+</html>
