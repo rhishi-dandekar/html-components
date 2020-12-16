@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Merriweather:wght@400;700&family=Roboto:wght@400;700');
+
+/* 
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+
+:root {
+    --background_pop: #FF6719;
+    --cover_bg_color: #FFFFFF;
+    --print_on_pop: #ffffff;
+    --border_subtle: #f6e7df;
+    --print_pop: #ff6719;
+    --cover_print_primary: #1a1a1a;
+    --cover_print_secondary: #757575;
+    --cover_border_color: #ff6719;
+}
+
+.topbar{
+    align-items: center;
+    text-align: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+
+.main {
+    text-align: center;
+    display: inline;
+    margin: 0.5vh;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+
+.h2 main-logo {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #757575;
+}
+
+.small .main {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium font-weight: 500;
+}
+
+
+#searchbar{
+    margin: 1rem;
+    padding-right: 2rem;
+    width: 350px;
+    height: 25px;
+}
+
+.button primary-login {
+    font-family: 'Roboto', sans-serif;
+    color: #FF6719;
+    text-align:right;
+    display:block;
+    font-size: larger;
+    padding: 9px 15px;
+}
